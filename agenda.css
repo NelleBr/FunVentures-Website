@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Shanti&display=swap');
+
 body {
     background-color: #F5F5F5;
 }
@@ -8,42 +11,69 @@ img {
 
 nav {
     background-color: #E0E9E6;
+    display: flex; 
+    justify-content: space-between; 
+}
+
+nav a img {
+    padding: 25px 0px 0px 15px;
+}
+
+.hamburger {
+    margin-right: 10px;
+    margin-top: 20px;
 }
 
 
 /* aangeduide activiteit */
 .activiteit {
     background-color: #E0E9E6;
+    padding-bottom: 30px;
+    margin-bottom: 70px;
+    
 }
 
 h2 {
     text-align: center;
+    font-size: 24px;
     margin: 0;
+    padding: 60px 30px 25px 30px;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
 }
 
 .img_activiteit {
     display: block; 
     margin: 0 auto; /* Centreert de afbeelding */
     background-color: white;
+    border-radius: 20px;
 }
 
 h4 {
     text-align: center;
+    font-size: 14px;
+    padding-top: 10px;
+    font-family: "Open Sans", serif;
+}
+
+.activiteit p {
+    text-align: center;
+    font-size: 14px;
+    padding: 0px 60px 5px 60px;
+    font-family: "Open Sans", serif;
 }
 
 
 
 /* andere activiteiten */
 
-h3 {
-    font-size: 18px;
-}
+
 article {
     background-color: white;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 20px;
     margin: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); /* Drop shadow */
    
 }
@@ -51,6 +81,8 @@ article {
 article h3 {
     margin-left: 15px;
     margin-bottom: 5px;
+    font-size: 18px;
+    font-family: "Open Sans", serif;
 }
 
 article img{
@@ -65,6 +97,7 @@ article a{
     margin-top: 15px;
     margin-bottom: 5px;
     font-size: 24px;
+    font-family: "Open Sans", serif;
 }
 
 
@@ -72,20 +105,34 @@ article a{
 footer {
     background-color: #0D1B40;
     color: white;
+    padding: 15px 20px 70px 20px;
+}
+.footer-line {
+    border-top: 1.5px solid white; /* Lijnkleur en dikte */
+    margin: 20px 0; /* Ruimte boven en onder de lijn */
+}
+
+
+
+.socials {
+    display: block;
 }
 
 footer p {
-    font-size: 16px
+    font-size: 16px;
+    font-family: "Open Sans", serif;
 }
 
 footer a{
     color: white;
     font-size: 16px;
+    font-family: "Open Sans", serif;
 }
 
 h5 {
     color: #00738D;
     font-size: 16px;
+    font-family: "Open Sans", serif;
 }
 
 ul {
@@ -93,4 +140,16 @@ ul {
 }
 footer ul li a{
     text-decoration: none;
+    font-family: "Open Sans", serif;
+}
+
+
+/* tablet */
+@media (min-width: 600px) {
+
+}
+
+/* desktop */
+@media (min-width: 800px) {
+
 }
