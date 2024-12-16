@@ -1,0 +1,96 @@
+body {
+    background-color: #F5F5F5;
+}
+
+img {
+    max-width: 100%;
+}
+
+nav {
+    background-color: #E0E9E6;
+}
+
+
+/* aangeduide activiteit */
+.activiteit {
+    background-color: #E0E9E6;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+}
+
+.img_activiteit {
+    display: block; 
+    margin: 0 auto; /* Centreert de afbeelding */
+    background-color: white;
+}
+
+h4 {
+    text-align: center;
+}
+
+
+
+/* andere activiteiten */
+
+h3 {
+    font-size: 18px;
+}
+article {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); /* Drop shadow */
+   
+}
+
+article h3 {
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+article img{
+    display: block; 
+    margin: 0 auto; /* Centreert de afbeelding */
+}
+
+article a{
+    text-align: center;
+    display: block;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+
+
+/* footer */
+footer {
+    background-color: #0D1B40;
+    color: white;
+}
+
+footer p {
+    font-size: 16px
+}
+
+footer a{
+    color: white;
+    font-size: 16px;
+}
+
+h5 {
+    color: #00738D;
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+}
