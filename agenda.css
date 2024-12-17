@@ -24,11 +24,11 @@ nav a img {
     padding: 25px 0px 0px 15px;
 }
 
-
 .hamburger {
     margin-right: 10px;
     margin-top: 20px;
 }
+
 
 
 /* aangeduide activiteit */
@@ -36,7 +36,6 @@ nav a img {
     background-color: #E0E9E6;
     padding-bottom: 30px;
     margin-bottom: 70px;
-    
 }
 
 h2 {
@@ -70,9 +69,7 @@ h4 {
 }
 
 
-
 /* andere activiteiten */
-
 
 article {
     background-color: white;
@@ -81,7 +78,6 @@ article {
     margin: 10px;
     margin-bottom: 60px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); /* Drop shadow */
-   
 }
 
 article h3 {
@@ -93,7 +89,7 @@ article h3 {
 
 article img{
     display: block; 
-    margin: 0 auto; /* Centreert de afbeelding */
+    margin: 0 auto; /* Centreer de afbeelding */
     height: 200px;
 }
 
@@ -142,8 +138,6 @@ footer a{
     margin-top: 20px;
 }
 
-
-
 h5 {
     color: #00738D;
     font-size: 16px;
@@ -167,6 +161,7 @@ footer ul li a{
 
 /* tablet */
 @media (min-width: 600px) {
+    /* navigatie */
     .hamburger {
         display: none;
     }
@@ -181,8 +176,6 @@ footer ul li a{
         display: flex;
         align-items: center; 
     }
-
-
 
     ul.links {
         list-style: none;
@@ -204,10 +197,9 @@ footer ul li a{
         display: inline-block;
         padding: 15px 15px;
         border-radius: 8px;
-        font-style: bold;
-    
     }
 
+    /* aangeduide activiteit */
     h2 {
         font-size: 38px;
         padding: 60px 70px 25px 70px;
@@ -225,6 +217,7 @@ footer ul li a{
         height: 358px; 
     }
 
+    /* andere activiteiten */
     .anderen {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -245,13 +238,12 @@ footer ul li a{
 /* desktop */
 @media (min-width: 800px) {
     
-    
+    /* navigatie */
     ul.links {
         gap: 50px; 
     }
 
-
-
+    /* aangeduide activiteit */
     h2 {
         font-size: 65px;
         padding: 60px 120px 25px 120px;
@@ -262,7 +254,7 @@ footer ul li a{
     }
 
     .activiteit p{
-        font-size: 24;
+        font-size: 24px;
     }
     
     .img_activiteit {
@@ -270,7 +262,7 @@ footer ul li a{
         height: 567px; 
     }
 
-
+    /* andere activiteiten */
     article a{
         font-size: 16px;
     }
