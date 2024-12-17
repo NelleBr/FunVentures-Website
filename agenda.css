@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Shanti&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Shanti&display=swap');
 
 body {
     background-color: #F5F5F5;
@@ -9,15 +9,21 @@ img {
     max-width: 100%;
 }
 
+/* navigatie */
 nav {
     background-color: #E0E9E6;
     display: flex; 
     justify-content: space-between; 
 }
 
+.links {
+    display: none;
+}
+
 nav a img {
     padding: 25px 0px 0px 15px;
 }
+
 
 .hamburger {
     margin-right: 10px;
@@ -88,6 +94,7 @@ article h3 {
 article img{
     display: block; 
     margin: 0 auto; /* Centreert de afbeelding */
+    height: 200px;
 }
 
 article a{
@@ -105,14 +112,14 @@ article a{
 footer {
     background-color: #0D1B40;
     color: white;
-    padding: 15px 20px 70px 20px;
+    padding: 15px 20px 50px 20px;
+    font-family: "Open Sans", serif;
 }
+
 .footer-line {
-    border-top: 1.5px solid white; /* Lijnkleur en dikte */
-    margin: 20px 0; /* Ruimte boven en onder de lijn */
+    border-top: 1.5px solid white; 
+    margin: 20px 0; 
 }
-
-
 
 .socials {
     display: block;
@@ -129,15 +136,29 @@ footer a{
     font-family: "Open Sans", serif;
 }
 
+.footer_links {
+    display: flex;
+    gap: 70px;
+    margin-top: 20px;
+}
+
+
+
 h5 {
     color: #00738D;
     font-size: 16px;
     font-family: "Open Sans", serif;
 }
 
-ul {
+footer ul {
     list-style: none;
+    padding: 0;
 }
+
+footer ul li {
+    padding-bottom: 15px; 
+}
+
 footer ul li a{
     text-decoration: none;
     font-family: "Open Sans", serif;
@@ -146,10 +167,116 @@ footer ul li a{
 
 /* tablet */
 @media (min-width: 600px) {
+    .hamburger {
+        display: none;
+    }
+
+    nav {
+        justify-content: center; 
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    .navigatie {
+        display: flex;
+        align-items: center; 
+    }
+
+
+
+    ul.links {
+        list-style: none;
+        align-items: center;
+        display: flex; 
+        margin-top: 40px;
+        gap: 20px; 
+    }
+
+    ul.links li a {
+        text-decoration: none;
+        color: #333333;
+        font-family: "Open Sans", serif;
+        font-size: 16px;
+    }
+
+    .btn {
+        background-color: #89BC4C;
+        display: inline-block;
+        padding: 15px 15px;
+        border-radius: 8px;
+        font-style: bold;
+    
+    }
+
+    h2 {
+        font-size: 38px;
+        padding: 60px 70px 25px 70px;
+    }
+    h4 {
+        font-size: 24px;
+        font-family: "Bebas Neue", sans-serif;
+    }
+    .activiteit p {
+        font-size: 16px;
+    }
+
+    .img_activiteit {
+        width: 568px; 
+        height: 358px; 
+    }
+
+    .anderen {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        margin-bottom: 90px;
+    }
+
+    article h3{
+        font-size: 16px;
+    }
+
+    article {
+        margin-bottom: 0;
+    }
 
 }
 
 /* desktop */
 @media (min-width: 800px) {
+    
+    
+    ul.links {
+        gap: 50px; 
+    }
 
+
+
+    h2 {
+        font-size: 65px;
+        padding: 60px 120px 25px 120px;
+    }
+
+    h4 {
+        font-size: 36px;
+    }
+
+    .activiteit p{
+        font-size: 24;
+    }
+    
+    .img_activiteit {
+        width: 925.12px; 
+        height: 567px; 
+    }
+
+
+    article a{
+        font-size: 16px;
+    }
+
+    .anderen {
+        grid-template-columns: 1fr 1fr 1fr 1fr !important;
+        margin: 0px 70px 140px 70px;
+    }
 }
