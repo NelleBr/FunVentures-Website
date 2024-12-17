@@ -169,19 +169,18 @@ footer ul li a{
     nav {
         justify-content: center; 
         align-items: center;
-        padding: 10px 0;
     }
 
-    .navigatie {
-        display: flex;
-        align-items: center; 
+    div.navigatie {
+        background-color: #E0E9E6;
+        display: flex; 
+        justify-content: center; 
     }
 
     ul.links {
         list-style: none;
         align-items: center;
         display: flex; 
-        margin-top: 40px;
         gap: 20px; 
     }
 
