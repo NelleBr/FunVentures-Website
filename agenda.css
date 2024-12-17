@@ -10,7 +10,7 @@ img {
 }
 
 /* navigatie */
-nav {
+div.navigatie {
     background-color: #E0E9E6;
     display: flex; 
     justify-content: space-between; 
